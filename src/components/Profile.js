@@ -12,7 +12,7 @@ export default function Profile(props) {
             }
             const data = await response.json();
             setDetail(data.result[0]);
-            console.log(data);
+            // console.log(data);
         }
         catch (error) {
             console.log("error fetching data", error);
